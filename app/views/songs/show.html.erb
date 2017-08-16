@@ -1,0 +1,5 @@
+<p>Song Name: <%= @song.title %></p>
+<p>Artist: <%= @song.artist_name %></p>
+<p>Genre: <%= @song.genre %></p>
+
+<%= button_to "delete", @song, :method => :delete %>
